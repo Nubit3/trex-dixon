@@ -1,0 +1,6 @@
+__pycache__
+.allorad
+.cache
+config.json
+env_file
+worker-data

@@ -1,0 +1,178 @@
+{
+   "wallet": {
+       "addressKeyName": "testkey",
+       "addressRestoreMnemonic": "your mnemonic key",
+       "alloraHomeDir": "/root/.allorad",
+       "gas": "1000000",
+       "gasAdjustment": 1.0,
+       "nodeRpc": "https://allora-rpc.testnet-1.testnet.allora.network/",
+       "maxRetries": 1,
+       "delay": 1,
+       "submitTx": false
+   },
+   "worker": [
+       {
+           "topicId": 1,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 1,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "DOT"
+           }
+       },
+       {
+           "topicId": 2,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 3,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "KAS"
+           }
+       },
+       {
+           "topicId": 3,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "LEO"
+           }
+       },
+       {
+           "topicId": 4,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 2,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "DAI"
+           }
+       },
+       {
+           "topicId": 5,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 4,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "UNI"
+           }
+       },
+       {
+           "topicId": 6,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "ICP"
+           }
+       },
+       {
+           "topicId": 7,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 2,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "PEPE"
+           }
+       },
+       {
+           "topicId": 8,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 3,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "XLM"
+           }
+       },
+       {
+           "topicId": 9,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "XMR"
+           }
+       },
+       {
+           "topicId": 10,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 1,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "FDUSD"
+           }
+       },
+       {
+           "topicId": 11,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 3,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "CRO"
+           }
+       },
+       {
+           "topicId": 12,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "OKB"
+           }
+       },
+       {
+           "topicId": 13,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 2,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "SUI"
+           }
+       },
+       {
+           "topicId": 14,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 4,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "STX"
+           }
+       },
+       {
+           "topicId": 15,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "FET"
+           }
+       },
+       {
+           "topicId": 16,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 2,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "FIL"
+           }
+       },
+       {
+           "topicId": 17,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 3,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "TAO"
+           }
+       },
+       {
+           "topicId": 18,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 5,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "MNT"
+           }
+       }
+       
+   ]
+}
